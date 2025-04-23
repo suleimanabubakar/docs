@@ -35,8 +35,8 @@
         ]
       },
       {
-        "tabs": [
-          {
+   
+        
             "tab": "API Reference",
             "groups": [
               {
@@ -48,8 +48,8 @@
               }
             ]
           }
-        ]
-      }
+      
+      
     ],
     "global": {
       "anchors": [
