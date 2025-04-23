@@ -5,16 +5,6 @@
     "description": "",
     "version": "v1"
   },
-
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "API Reference",
-        "openapi": "/api-reference/openapi.json"
-      }
-    ]
-  },
-  
   "servers": [
     {
       "url": "http://127.0.0.1:8000/"

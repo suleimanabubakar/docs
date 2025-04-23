@@ -6,14 +6,6 @@
     "version": "v1"
   },
 
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "API Reference",
-        "openapi": "/api-reference/openapi.json"
-      }
-    ]
-  },
   
   "servers": [
     {

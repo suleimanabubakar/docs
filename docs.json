@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "RM Endpoints",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -35,21 +35,17 @@
         ]
       },
       {
-        "tab": "API Reference",
-        "groups": [
+        "tabs": [
           {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+            "tab": "API Reference",
+            "groups": [
+              {
+                "group": "Endpoints",
+                "openapi": {
+                  "source": "/api-reference/openapi.json",
+                  "directory": "api-reference"
+                }
+              }
             ]
           }
         ]
